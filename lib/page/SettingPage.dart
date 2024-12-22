@@ -48,6 +48,10 @@ class _SettingPageState extends State<SettingPage> with WidgetsBindingObserver {
 
         /// TODO: Handle this case.
         break;
+
+      case AppLifecycleState.hidden:
+        // TODO: Handle this case.
+        break;
     }
   }
 
